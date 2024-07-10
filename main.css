@@ -1,0 +1,1321 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'ducati', Arial, sans-serif;
+    letter-spacing: 0.8px;
+
+}
+
+.page-wrp {
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    bottom: 30px;
+
+
+    .responsive-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .top-right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: start;
+        margin-top: 27px;
+        position: relative;
+
+        .india-sym {
+            position: absolute;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 269px;
+        }
+
+        .india-wri {
+            position: absolute;
+            display: flex;
+            justify-content: flex-end;
+            text-transform: uppercase;
+            color: #fafafa;
+            font-weight: 700;
+            font-family: 'ducati-condensed', Arial, sans-serif;
+            font-size: 12px;
+            margin-top: 3px;
+            margin-right: 223px;
+        }
+        
+
+    }
+
+    .nav-bar {
+        position: absolute;
+        margin-top: 71px;
+        width: 94%;
+        background-color: #fafafa;
+        padding: 30px 10px;
+        border-radius: 2px;
+        margin-left: 2%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-div {
+
+        list-style-type: none;
+        font-size: 12px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'ducati-condensed', Arial, sans-serif;
+    }
+
+    .nav-div li {
+        list-style-type: none;
+        margin-right: 40px;
+    }
+
+    .nav-div li a {
+        text-decoration: none;
+        font-weight: 500;
+        color: #0f0f0f;
+    }
+
+    .nav-div img {
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        margin-right: 35px;
+    }
+
+    .button-wrp {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        margin-bottom: 80px;
+
+        .go-to-motogp-section {
+            position: absolute;
+            font-family: 'ducati-condensed', Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: 700;
+            height: 60px;
+            border-radius: 2px;
+            padding: 0 12px;
+            align-content: center;
+            color: #fafafa;
+            background-color: red;
+            border: none;
+            margin-right: 35px;
+        }
+    }
+}
+
+#ducati-range {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    display: block;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: solid 1px;
+    min-width: 120px;
+    text-align: center;
+    height: 37px;
+    line-height: 35px;
+    padding: 0 1em;
+    border-radius: 100px;
+    text-decoration: none;
+    background-color: #0f0f0f;
+    border-color: #0f0f0f;
+    color: #fafafa;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+}
+
+.press-review-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.press-review-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.description {
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.read-more {
+
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+
+}
+
+.press-review-picture {
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.exclusive-offer-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.exclusive-offer-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.offer-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.offer-description {
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.discover-more {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+
+}
+
+.offer-picture {
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.motogp-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.motogp-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.motogp-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+
+.motogp-section {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+
+}
+
+.motogp-picture {
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.scrambler-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.scrambler-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.scrambler-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.scrambler-description {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.scrambler-discover-more {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.offer-picture {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+.quad-img {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.race-of-champions-img {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.race-of-champions-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.race-of-champions-img .transition{
+    position: absolute;
+    top: 50%; /* Start from the bottom */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.25));
+    transition: top 0.5s ease; /* Smooth transition */
+}
+
+.race-of-champions-img:hover .transition {
+    top: 0; /* Slide to the top */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent grey */
+
+    
+}
+
+.race-of-champions-title{
+    margin-top: 120px;
+    display: block;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 1.5em;
+    color: #fafafa;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.race-of-champions-description{
+    display: block;
+    font-family: 'ducati', Arial, sans-serif;
+    font-size: 1.65em;
+    font-weight: 400;
+    margin-bottom: 1.3em;
+    letter-spacing: 0.8px;
+    align-items: center;
+}
+
+.race-of-champions-button{
+    margin-top: 27px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    padding: 20px 25px;
+    font-weight: 700;
+    color: #fafafa;
+    background-color: transparent;
+    border-color: #fafafa;
+}
+
+
+.ducati-corse-img {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.ducati-corse-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ducati-corse-img .transition{
+    position: absolute;
+    top: 50%; /* Start from the bottom */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.25));
+    transition: top 0.5s ease; /* Smooth transition */
+}
+
+.ducati-corse-img:hover .transition {
+    top: 0; /* Slide to the top */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent grey */
+
+    
+}
+
+.ducati-corse-title{
+    margin-top: 70px;
+    display: block;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 1.5em;
+    color: #fafafa;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ducati-corse-description{
+    display: block;
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-size: 1.65em;
+    font-weight: 400;
+    margin-bottom: 1.3em;
+    letter-spacing: 0.8px;
+    align-items: center;
+}
+
+.ducati-corse-button{
+    margin-top: 15px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    padding: 20px 55px;
+    font-weight: 700;
+    color: #fafafa;
+    background-color: transparent;
+    border-color: #fafafa;
+}
+
+.dre-looks-img {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.dre-looks-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.dre-looks-img .transition{
+    position: absolute;
+    top: 50%; /* Start from the bottom */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.25));
+    transition: top 0.5s ease; /* Smooth transition */
+}
+
+.dre-looks-img:hover .transition {
+    top: 0; /* Slide to the top */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent grey */
+
+    
+}
+
+.dre-looks-title{
+    margin-top: 120px;
+    display: block;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 1.5em;
+    color: #fafafa;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.dre-looks-description{
+    display: block;
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-size: 1.65em;
+    font-weight: 400;
+    margin-bottom: 1.3em;
+    letter-spacing: 0.8px;
+    align-items: center;
+}
+
+.dre-looks-button{
+    margin-top: 15px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    padding: 20px 55px;
+    font-weight: 700;
+    color: #fafafa;
+    background-color: transparent;
+    border-color: #fafafa;
+}
+
+.ducati-heritage-looks-img {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.ducati-heritage-looks-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ducati-heritage-looks-img .transition{
+    position: absolute;
+    top: 50%; /* Start from the bottom */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.25));
+    transition: top 0.5s ease; /* Smooth transition */
+}
+
+.ducati-heritage-looks-img:hover .transition {
+    top: 0; /* Slide to the top */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent grey */
+
+    
+}
+
+.ducati-heritage-looks-title{
+    margin-top: 120px;
+    display: block;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 1.5em;
+    color: #fafafa;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ducati-heritage-looks-description{
+    display: block;
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-size: 1.65em;
+    font-weight: 400;
+    margin-bottom: 1.3em;
+    letter-spacing: 0.8px;
+    align-items: center;
+}
+
+.ducati-heritage-looks-button{
+    margin-top: 15px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    padding: 20px 55px;
+    font-weight: 700;
+    color: #fafafa;
+    background-color: transparent;
+    border-color: #fafafa;
+}
+
+.latest-news-wrp{
+    width: 95%;
+    margin: 3%;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* box-sizing: border-box; */
+}
+
+.accessories{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    /* padding-right: 40px; */
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+    }
+    
+}
+.accessories-img{
+    width: 100%;
+
+
+}
+
+.accessories-content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.accessories-title{
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #666;
+}
+.accessories-description{
+    font-size: 18px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    line-height: 1.2;
+    
+}
+
+.wdw{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+    }
+}
+.wdw img{
+    width: 100%;
+}
+
+.wdw-content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.wdw-title{
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #666;
+}
+.wdw-description{
+    font-size: 18px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    line-height: 1.2;
+}
+
+.apparel{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+    }
+}
+.apparel img{
+    width: 100%;
+
+
+}
+
+.apparel-content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.apparel-title{
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #666;
+
+}
+.apparel-description{
+    font-size: 18px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    line-height: 1.2;
+}
+
+
+.enjoy-ducati-container {
+    width: 100%;
+    display: flex;
+    
+    /* justify-content: space-around; */
+}
+
+.ducati-configuration, .scrambler-configuration, .shop-ducati {
+    width: 50%;
+    position: relative;
+   
+
+}
+
+.ducati-configuration img, .scrambler-configuration img, .shop-ducati img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.ducati-configuration-overlay, .scrambler-configuration-overlay, .shop-ducati-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    background-color: rgba(0, 0, 0, 0.6);    
+}
+
+.ducati-configuration:hover .ducati-configuration-overlay, 
+.scrambler-configuration:hover .scrambler-configuration-overlay, 
+.shop-ducati:hover .shop-ducati-overlay {
+    background-color: rgba(0, 0, 0, 0.44);  
+    transition: 0.4s ease;
+}
+
+.ducati-configuration-title, .scrambler-configuration-title, .shop-ducati-title {
+    position: absolute;
+
+}
+
+.ducati-configuration-title, .scrambler-configuration-title, .shop-ducati-title{
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 2.0px;
+    color: #fafafa;
+    white-space: nowrap;
+}
+
+
+
+.multistrada-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.multistrada-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.multistrada-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.multistrada-description {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.multistrada-comparator {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.multistrada-picture {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+.MyDucatiApp-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.MyDucatiApp-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.MyDucatiApp-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.MyDucatiApp-description {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.MyDucatiApp-register-now {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.MyDucatiApp-picture {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+.streetfighter{
+    position: relative;
+    width: 95%;
+    margin: 2%;
+    margin-top: 50px;
+    img{
+    width: 100%;
+    
+    }
+}
+
+.streetfighter-content{
+    position: absolute;
+    width: 30%;
+    top: 70px;
+    left: 90px;
+    color: #fafafa;
+    letter-spacing: 0.8px;
+}
+
+.streetfighter-title{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 0;
+
+}
+
+.streetfighter-description{
+    display: block;
+    font-size:  18px;
+    line-height: 1.5;
+}
+
+.configure-here{
+            position: absolute;
+            font-family: 'ducati-condensed', Arial, sans-serif;
+            margin-top: 150px;
+            line-height: 1;
+            font-weight: 700;
+            height: 60px;
+            border-radius: 2px;
+            padding: 0 40px;
+            align-content: center;
+            color: #fafafa;
+            background-color: red;
+            border: none;
+            margin-right: 35px;
+}
+
+.ducati-performance-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.ducati-performance-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.ducati-performance-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.ducati-performance-description {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.ducati-performance-find-out {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.ducati-performance-picture {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+
+.pre-owned-ducati-container {
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    margin-left: 2%;
+    align-items: center;
+    border-top: none;
+    border-left: 4px solid #c00;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        /* webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+}
+
+.pre-owned-ducati-wrp {
+    background-color: #fff;
+    width: 45%;
+    padding: 34px;
+
+}
+
+.pre-owned-ducati-title {
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    letter-spacing: 0.8px;
+    margin: 0 0 11px 0;
+}
+
+.pre-owned-ducati-description {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    letter-spacing: 0.8px;
+    margin: 0 0 15px 0;
+
+}
+
+.pre-owned-ducati-find-bike {
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c00;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.pre-owned-ducati-picture {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+
+.follow-ducati{
+    position: relative;
+    width: 95%;
+    margin: 2%;
+    margin-top: 50px;
+    img{
+    width: 100%;
+    
+    }
+}
+
+.follow-ducati-content{
+    position: absolute;
+    width: 30%;
+    top: 70px;
+    left: 90px;
+    color: #fafafa;
+    letter-spacing: 0.8px;
+}
+
+.follow-ducati-title{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 0;
+
+}
+
+.follow-ducati-description{
+    display: block;
+    font-size:  18px;
+    line-height: 1.5;
+}
+
+.follow-us{
+            position: absolute;
+            font-family: 'ducati-condensed', Arial, sans-serif;
+            margin-top: 150px;
+            line-height: 1;
+            font-weight: 700;
+            height: 60px;
+            border-radius: 2px;
+            padding: 0 40px;
+            align-content: center;
+            color: #fafafa;
+            background-color: red;
+            border: none;
+            margin-right: 35px;
+}
+
+
+.subscribe-ducati-wrp{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.content{
+
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.footer-title{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: #0f0f0f;
+    font-family: 'ducati-extended', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.ducati-privacy{
+    color: #666;
+    font-size: 12px;
+    margin: 20px 0;
+    display: block;
+    line-height: 1.5;
+    p{
+        padding: 0;
+        margin: 0;
+    }
+}
+.checkbox{
+    color: #666;
+    font-size: 12px;
+}
+
+.email{
+    margin-top: 30px;
+}
+
+.input-email{
+    margin-bottom: 0;
+    margin-right: 15px;
+    width: 450px;
+    height: 60px;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.subscribe-button{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    height: 60px;
+    border-radius: 2px;
+    padding: 0 30px;
+    align-content: center;
+    color: #fafafa;
+    background-image: linear-gradient(to bottom,red,#c00);
+    border: none;
+    
+}
+
+.recaptcha{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.recaptcha a {
+    color: #666;
+}
+
+.highlights,.latest-news{
+    font-weight: 32px;
+    line-height: 1.28;
+    color: #bbbcbc;
+    text-align: center;
+    margin: 0 auto 80px;
+
+    h1{
+    margin-top: 80px;
+    font-size: 32px;
+    line-height: 1.28;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'ducati-extended', Arial, sans-serif;
+    }
+}
+
+.enjoy-ducati-to-the-fullest{
+    font-weight: 32px;
+    line-height: 1.28;
+    color: #bbbcbc;
+    text-align: center;
+    margin: 0 auto 180px;
+
+    h1{
+    margin-top: 60px;
+    font-size: 32px;
+    line-height: 1.28;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'ducati-extended', Arial, sans-serif;
+    }
+}
